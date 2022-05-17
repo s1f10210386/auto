@@ -1,0 +1,19 @@
+{
+  "name": "youtubeauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "codegen":"playwright codegen https://www.youtube.com/" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.22.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
